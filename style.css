@@ -192,7 +192,7 @@ main {
 
 footer {
     text-align: center;
-    margin-top: 60vh;
+    margin-top: 80vh;
     width: 100%;
     font-size: 16px;
 }
@@ -383,6 +383,7 @@ footer {
     color: #0a3871;
     font-size: 20px;
     margin-top: 240px;
+    margin-bottom: 50vh;
     font-weight: 400;
     outline: none;
     border: none;
