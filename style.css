@@ -180,7 +180,7 @@ main {
   text-align: center;
   padding: 24px;
   gap: 8px;
-  width: 328px;
+  width: 250px;
   height: 67px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -377,7 +377,7 @@ footer {
     font-family: "Inter";
     display: block;
     width: 650px;
-    height: 30px;
+    height: 20px;
     line-height: 48px;
     margin-left:40px;
     color: #0a3871;
