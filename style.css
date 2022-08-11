@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f5fc;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+header img {
+  margin-top: 40px;
+  margin-left: 84px;
+}
+
+/*-----main styles-----*/
+main {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  gap: 2rem;
+}
+
+.seccion1 {
+  width: 60%;
+}
+
+.seccion1 p {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.seccion1 > p > i {
+  width: 16px;
+  height: 16px;
+  color: #495057;
+}
+.text-input {
+  float: left;
+  font-family: "Inter";
+  margin: 168px 0px 600px 150px;
+  width: 570px;
+  line-height: 48px;
+  color: #0a3871;
+  font-size: 32px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: #f3f5fc;
+}
+
+.buttons-container {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.btn-encriptar {
+  border-radius: 24px;
+  background: #0a3871;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 10px;
+  border: 1px solid #0a3871;
+}
+
+.btn-desencriptar {
+  background: #d8dfe8;
+  color: #0a3871;
+  border-radius: 24px;
+  text-align: center;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid #0a3871;
+}
+
+.seccion2 {
+  width: 30%;
+  background-color: white;
+  border-radius: 32px;
+  box-sizing: border-box;
+  height: 944px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.seccion2:hover {
+  border: 3px solid #0a3871;
+}
+.contenedor-munieco {
+  display: flex;
+  width: 100%;
+  height: 304px;
+  margin-top: 183px;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.contenedor-parrafo {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+
+.ocultar {
+  display: none;
+}
+
+.contenedor-resultado {
+    width: 330px;
+    height: 700px;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-style: regular;
+    line-height: 150%;
+    text-align: left;
+    font-size: 24px;
+    vertical-align: top;
+  }
+
+.contenedor-h3 > h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 28.8px;
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.contenedor-parrafo > p {
+  font-family: "Inter", sans-serif;
+  margin: 0px 32px 243px 32px;
+  color: #495057;
+}
+
+.contenedor-copiar {
+  width: 100%;
+  height: 20%;
+}
+
+#copy {
+  margin-top: 98px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  background: #d8dfe8;
+  color: #0a3871;
+  border-radius: 24px;
+  text-align: center;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid #0a3871;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60vh;
+    width: 100%;
+    font-size: 16px;
+}
+@media screen and (max-width: 480px) {
+  header > img {
+    width: 80px;
+    height: 48px;
+    margin-top: 24px;
+    margin-left: 16px;
+    color: #0a3871;
+  }
+
+  .main {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .text-input {
+    font-family: "Inter";
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 48px;
+    color: #0a3871;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 140px;
+    font-weight: 400;
+    outline: none;
+    background: #f3f5fc;
+    border: none;
+  }
+
+  .text-input:hover {
+    border: 1px solid #0a3871;
+  }
+
+  .seccion1 p {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 200px;
+  }
+
+  .seccion1 > p > i {
+    width: 16px;
+    height: 16px;
+    color: #495057;
+  }
+
+  .contenedor-munieco {
+    display: none;
+  }
+
+  .seccion1 {
+    width: 100%;
+  }
+
+  .seccion2 {
+    background-color: white;
+    display: block;
+    box-sizing: border-box;
+    height: 186px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .contenedor-h3 > h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 10px;
+    margin: 32px;
+    vertical-align: top;
+  }
+
+  .contenedor-parrafo > p {
+    font-family: "Inter", sans-serif;
+    margin: 0px 32px 243px 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+    text-align: center;
+  }
+
+  .btn-encriptar {
+    border-radius: 24px;
+    background: #0a3871;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 310px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 19px;
+    border: 1px solid #0a3871;
+  }
+
+  .btn-desencriptar {
+    background: #d8dfe8;
+    display: block;
+    color: #0a3871;
+    border-radius: 24px;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 310px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: auto;
+    border: 1px solid #0a3871;
+    margin-bottom: 50px;
+  }
+
+  #copy {
+    margin: 22px auto;
+    display: none;
+    background: #d8dfe8;
+    color: #0a3871;
+    border-radius: 24px;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 310px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #0a3871;
+  }
+
+  .contenedor-resultado {
+    display: flex;
+    width: 300px;
+    height: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-style: regular;
+    line-height: 150%;
+    text-align: left;
+    font-size: 24px;
+    vertical-align: top;
+    margin: auto;
+    border-radius: 0px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 990px) {
+  header > img {
+    width: 80px;
+    height: 48px;
+    margin-top: 73.42px;
+    margin-left: 40px;
+}
+  .main {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .text-input {
+    font-family: "Inter";
+    display: block;
+    width: 650px;
+    height: 30px;
+    line-height: 48px;
+    margin-left:40px;
+    color: #0a3871;
+    font-size: 20px;
+    margin-top: 240px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+  }
+
+  .text-input:hover {
+    border: 1px solid #0a3871;
+  }
+ 
+  .seccion1 p {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 24px;
+    margin-top: 200px;
+  }
+
+  .seccion1 > p > i {
+    width: 16px;
+    height: 16px;
+    color: #495057;
+  }
+
+  .contenedor-munieco {
+    display: none;
+  }
+
+  .seccion1 {
+    width: 100%;
+  }
+
+  .seccion2 {
+    height: 186px;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 0px;
+  }
+
+  .contenedor-h3 > h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #343a40;
+    vertical-align: top;
+    margin-top: 50px;
+  }
+
+  .contenedor-parrafo > p {
+    font-family: "Inter", sans-serif;
+    margin: 0px 32px 243px 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+    text-align: center;
+  }
+
+  .buttons-container{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  .btn-encriptar {
+    width: 310px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    line-height: 19px;
+    border: 1px solid #0a3871;
+  }
+
+  .btn-desencriptar {
+    background: #d8dfe8;
+    display: block;
+    color: #0a3871;
+    border-radius: 24px;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 310px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px;
+    border: 1px solid #0a3871;
+  }
+
+  #copy {
+    margin: 22px auto;
+    display: none;
+    background: #d8dfe8;
+    color: #0a3871;
+    border-radius: 24px;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 600px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #0a3871;
+  }
+
+  .contenedor-resultado {
+    display: flex;
+    width: 310px;
+    height: 185px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-style: regular;
+    line-height: 150%;
+    text-align: left;
+    font-size: 24px;
+    vertical-align: top;
+    margin: auto;
+  }
+  
+  footer{
+    font-size: 1.3em;
+  }
+}

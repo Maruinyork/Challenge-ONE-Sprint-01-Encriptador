@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge ONE Encriptador</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.svg" alt="logo Alura" />
+    </header>
+
+    <main class="main">
+      <section class="seccion1">
+        <input
+          class="text-input"
+          id="area"
+          type="text"
+          placeholder="Ingrese el texto aqui"
+        />
+        <p>
+          <i class="fa-solid fa-circle-exclamation"></i>Sólo letras minusculas y
+          sin acento
+        </p>
+        <div class="buttons-container">
+          <input type="button" class="btn-encriptar" value="Encriptar" />
+          <input type="button" class="btn-desencriptar" value="Desencriptar" />
+        </div>
+      </section>
+
+      <section class="seccion2">
+        <div class="contenedor-munieco">
+          <img src="img/muñeco.svg" alt="munheco" />
+        </div>
+        <div class="contenedor-h3">
+          <h3>Ningún mensaje fue encontrado</h3>
+        </div>
+        <div class="contenedor-parrafo">
+          <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+        </div>
+        <div class="contenedor-resultado">
+          <p id="texto-resultado"></p>
+        </div>
+        <div class="contenedor-copiar">
+          <input type="button" id="copy" onclick="copy()" ; value="Copiar" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2022 | Alura by Maruinyork</p>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
